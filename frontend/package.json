@@ -13,7 +13,12 @@
     "linux": {
       "target": ["dir"],
       "executableName": "urdu-translator-frontend"
-    }
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ]
   },
   "dependencies": {
     "react": "^18.2.0",
